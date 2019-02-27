@@ -1,0 +1,35 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="buttonEditor.css">
+    <script type="text/javascript" src="buttonEditor.js">
+         </script>
+		<title>Custom Editor!</title>
+</head>
+<body>
+  <div class="container-fluid" id="mainDiv">
+    <p id="mainText">
+      This is some dummy text that needs to create a large enough textbox to
+      reasonably be able to see the changes in formatting that the user makes
+      so they can accurately assess and observe the changes that have been
+      applied upon clicking the submit button
+    </p>
+  </div>
+  <div class="container" id="editorBox">
+    <div class="container" id="BorderBox">Border<br>
+      Red Value<input id="redInputBorder"></input><br>
+      Green Value<input id="greenInputBorder"></input><br>
+      Blue Value<input id="blueInputBorder"></input><br>
+      Width<input id="widthInputBorder"></input><br>
+    </div>
+    <div class="container" id="BackgroundBox">Background<br>
+      <input id="redInputBackground">Red Value</input><br>
+      <input id="greenInputBackground">Green Value</input><br>
+      <input id="blueInputBackground">Blue Value</input>
+      <button id="submitBtn" onClick='update()'>Submit</button>
+    </div>
+    <h5 id="instructions">All colors can take a value from 0-255</h5>
+  </div>
+</body>

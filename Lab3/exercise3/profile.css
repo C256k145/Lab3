@@ -1,0 +1,60 @@
+#headerText {
+  text-align: center;
+  margin: -0%;
+  padding: 3%;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#profilePic {
+  height: 100%;
+  width: 100%;
+}
+
+#profilePicBox {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 2%;
+  background-color: black;
+  height: 35%;
+  width: 20%
+}
+
+#infoBox {
+  border-radius: 15px;
+  display: inline-block;
+  background-color: black;
+  margin-left: 5%;
+  height: 35%;
+  width: 35%;
+  vertical-align: top;
+}
+#infoText {
+  color: white;
+  margin: 1%;
+  padding: 1%;
+}
+#websitesBox {
+  display: inline-block;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  height: 35%;
+  width: 35%;
+}
+#video {
+  display: inline-block;
+  vertical-align: top;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: blue;
+}
