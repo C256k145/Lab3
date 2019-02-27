@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+#headerDiv {
+  border-radius: 15px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#exercise1 {
+  text-align: center;
+  margin:2%;
+  background-color: lightblue;
+  padding: 2%;
+  border-radius: 15px;
+}
+#exercise2 {
+  text-align: center;
+  margin:2%;
+  background-color: lightblue;
+  padding: 2%;
+  border-radius: 15px;
+}
+#exercise3 {
+  text-align: center;
+  margin:2%;
+  background-color: lightblue;
+  padding: 2%;
+  border-radius: 15px;
+}
+#exercise4 {
+  text-align: center;
+  margin:2%;
+  background-color: lightblue;
+  padding: 2%;
+  border-radius: 15px;
+}
